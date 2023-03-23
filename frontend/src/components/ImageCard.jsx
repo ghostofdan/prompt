@@ -1,9 +1,8 @@
 
-
 const ImageCard = ({ image }) => {
     return (
-        <img className="w-full rounded shadow-sm" src={image} />
+      <img className="w-full rounded shadow-sm" src={image} alt="" />
     )
-}
-
-export default ImageCard
+  }
+  
+  export default ImageCard
